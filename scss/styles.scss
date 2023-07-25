@@ -1,0 +1,67 @@
+.header {
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/solide-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header .roles {
+  font-family: "lora-regular", serif;
+}
+
+.header .social {
+  bottom: 50px;
+}
+
+.about-img {
+  width: 200px;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+  opacity: 0.8;
+}
+
+.services {
+  background: url("../images/bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.services::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.services .container {
+  z-index: 10;
+}
+@media (max-width: 768px) {
+  .header .social i {
+    font-size: 30px;
+  }
+
+  .header .roles {
+    font-size: 18px !important;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+    text-align: center !important;
+    .social-footer {
+      justify-content: center !important;
+    }
+  }
+}
