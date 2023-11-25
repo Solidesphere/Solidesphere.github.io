@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/solide-bg.png) no-repeat center center;
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://ik.imagekit.io/ymgy8y2y9/images/solide-bg.png?updatedAt=1700949936927) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -23,7 +23,7 @@
 }
 
 .services {
-  background: url("../images/bg.jpg") no-repeat center center;
+  background: url("https://ik.imagekit.io/ymgy8y2y9/images/bg.jpg?updatedAt=1700949930526") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
